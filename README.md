@@ -14,7 +14,7 @@ The nearest available elevator responds to floor requests, each elevator maintai
 - Each elevator maintains its own request list
 
 ## Credits
-All scripts and assets are original unless otherwise noted. 
-Assets generated/adapted with the help of Microsoft Copilot.  
+All scripts are original unless otherwise noted. 
+sprites generated/adapted with the help of Microsoft Copilot.  
 
 
