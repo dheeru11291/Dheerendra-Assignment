@@ -1,0 +1,36 @@
+# Elevator Simulation Project
+
+## Unity Version
+Unity 6
+
+## Description
+This project simulates a 2D elevator system with 3 elevators and 4 floors.  
+The nearest available elevator responds to floor requests, each elevator maintains its own request list, and movement between floors is smooth and realistic.
+
+## How to Run
+1. Open the main scene in Unity.
+2. Press Play.
+3. Use the floor buttons to call elevators.
+4. Observe elevators responding logically based on direction and nearest floor.
+
+## Features
+- 3 independent elevators
+- 4 floors with call buttons
+- Nearest elevator logic
+- Smooth floor-to-floor movement (no teleportation)
+- UI display of current floor for each elevator
+- Each elevator maintains its own request list
+
+## Technical Notes
+- Request Handling: Implemented using List<int> instead of Queue<int>.  
+  This allows flexible handling of requests, including sorting by nearest floor and managing direction-based logic more effectively.
+- Code Structure: Clean and modular scripts, organized for readability and maintainability.
+- UI: Floor buttons and displays implemented using Unity UI elements.
+
+## Submission
+- Format: .unitypackage
+- Includes all assets, scripts, and scenes
+
+## Credits
+All scripts and assets are original unless otherwise noted. 
+Assets generated/adapted with the help of Microsoft Copilot.  
